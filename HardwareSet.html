@@ -1,0 +1,295 @@
+<html lang="en" class="js .page-loader-done"><head><link href="./assets/plugins/fakeLoader/fakeLoader.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/fakeLoader/fakeLoader.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/fakeLoader/fakeLoader.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/fakeLoader/fakeLoader.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/fakeLoader/fakeLoader.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/fakeLoader/fakeLoader.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/plugin-css/plugin-offcanvas.min.css" rel="stylesheet" type="text/css"><link href="https://unpkg.com/js-offcanvas/dist/_css/prefixed/js-offcanvas.css" rel="stylesheet" type="text/css"><link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/plugin-css/plugin-owl-carousel.min.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/plugin-css/plugin-sticky-classes.min.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/fakeLoader/fakeLoader.css" rel="stylesheet" type="text/css"><link href="./assets/plugins/plugin-css/plugin-blazy.min.css" rel="stylesheet" type="text/css"><link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+    <title>Debug</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- @todo: fill with your company info or remove -->
+    <meta name="description" content="">
+    <meta name="author" content="Themelize.me">
+        <link rel="stylesheet" href="Main.css">
+
+    <!-- Bootstrap v4.1.3 CSS via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    
+    <!-- Plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
+    
+    <!-- Theme style -->
+    <link href="assets/css/theme-style.min.css" rel="stylesheet">
+    
+    <!-- Shop UI CSS - required if using shopping cart or any shop pages -->
+    <link href="assets/css/theme-shop.min.css" rel="stylesheet">
+    
+    <!--Your custom colour override-->
+    <link href="#" id="colour-scheme" rel="stylesheet">
+    
+    <!-- Your custom override -->
+    <link href="assets/css/custom-style.css" rel="stylesheet">
+    
+    
+    
+    <!-- Optional: ICON SETS -->
+    <!-- Iconset: Font Awesome 5.0.13 via CDN -->
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <!-- Iconset: flag icons - http://lipis.github.io/flag-icon-css/ -->
+    <link href="assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <!-- Iconset: ionicons - http://ionicons.com/ -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <!-- Iconset: Linearicons - https://linearicons.com/free -->
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
+    <!-- Iconset: Lineawesome - https://icons8.com/articles/line-awesome -->
+    <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
+    
+    
+    <!-- Le fav and touch icons - @todo: fill with your icons or remove, try https://realfavicongenerator.net -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/manifest.json">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    <!-- Google fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Rambla:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet" type="text/css">
+    
+    <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
+  </head>
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-shop header-compact-sticky page-shop-product navbar-layout-navbar-below"
+  onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload=""><div class="c-offcanvas-content-wrap">
+    
+    <!-- @plugin: page loading indicator, delete to remove loader -->
+    <div class="page-loader" data-toggle="page-loader" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(46, 204, 113); z-index: 9999999; display: none;"><div class="fl spinner6" style="position: absolute; left: 344px; top: 622.5px;"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div></div>
+    
+    <a href="#content" id="top" class="sr-only">Skip to content</a> 
+    
+    <!-- ======== @Region: #header ======== -->
+    <div id="header">
+      <!--Branding & Navigation Region-->
+      <div style="visibility: hidden; display: none; width: 910px; height: 113px; margin: 0px; float: none; position: static; top: 0px; right: auto; bottom: auto; left: auto;"></div><div style="visibility: hidden; display: none; width: 1263px; height: 56px; margin: 0px; float: none; position: static; top: 0px; right: auto; bottom: auto; left: auto;"></div><div style="visibility: hidden; display: none; width: 1263px; height: 91px; margin: 0px; float: none; position: static; top: 0px; right: auto; bottom: auto; left: auto;"></div><div style="visibility: hidden; display: none;"></div><div style="visibility: hidden; display: none;"></div><div style="visibility: hidden; display: none;">
+        
+      </div>
+      <div style="visibility: hidden; display: none;"></div>
+      <div data-toggle="sticky" class="sticky" style="top: 0px;"><div class="sticky-inner">
+        
+        <!--Header search region - hidden by default -->
+        
+        
+        <!--Header & Branding region-->
+        <div class="header">
+          <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.html) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .order-first or/and .order-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+          <div class="header-inner container">
+            <!--branding/logo -->
+            <div class="header-brand">
+              <a class="header-brand-text" href="" title="Home">
+                <h1 class="h2">
+                  <span class="header-brand-text-alt">Remote</span>Debugging<span class="header-brand-text-alt"></span>
+                </h1>
+              </a>
+              <div class="header-divider d-none d-lg-block"></div>
+              <div class="header-slogan d-none d-lg-block">user</div>
+            </div>
+            <!-- other header content -->
+            
+          </div>
+        </div>
+        
+        <div class="navbar navbar-expand-md">
+          <!--everything within this div is collapsed on mobile-->
+          
+          <!--/.navbar-collapse -->
+        </div>
+      </div></div>
+    </div>
+    
+    <!-- ======== @Region: #page-header ======== -->
+    <div id="page-header">
+      <div class="container clearfix" style="padding:10px">
+        <h3 class="mb-0 float-md-left">
+          Set View
+        </h3>
+        <!-- Page header breadcrumb -->
+        
+        <button class="btn btn-primary float-md-right">End session</button>
+      </div>
+    </div>
+    
+    <!-- ======== @Region: #content ======== -->
+
+
+
+
+                   
+    <div id="content" class="pt-7 pt-lg-6 pb-lg-0">
+      <div class="container">
+        <!-- Product view -->
+        <div class="row">
+         
+
+          <div id="camera-div" class="card product-card mb-5">
+		  <!--<iframe class="camera" src="http://tmdb902g:8001/camera/mjpeg"> 
+                </iframe>-->
+                
+
+                 <div id="camera-control" class="camera-menu">
+                    
+                     <div style="padding:15px"><button class="btn btn-lg btn-primary">ON</button></div>
+                     <div style="padding:15px"><button class="btn btn-lg btn-primary">+</button></div>
+                     <div style="padding:15px"><button class="btn btn-lg btn-group btn-primary">-</button></div>
+                     <div style="padding:15px"><button class="btn btn-lg btn-group btn-primary">OFF</button></div>
+                     
+                     
+
+
+                 </div>
+
+            </div>
+            
+         
+          <div class="col-lg-5">
+            <div class="card product-card mb-4">
+              <!-- Ribbon -->
+              
+              <!-- Content -->
+              <div class="card-body p-5 pos-relative">
+                <!-- Product details -->
+                
+                <h2 class="card-title mb-2">
+                 Hardware Set Name
+                </h2>
+                
+                <div class="product-offer-countdown">
+                  <p class="mb-t mb-0 text-xs">Usage time ends in:</p>
+                  <div class="countdown countdown-done" data-countdown="2018/8/16" data-countdown-format="<span class=&quot;count&quot;>
+                    <span class=&quot;digit&quot;>%-d</span> days
+                  </span>
+                  <span class=&quot;count&quot;><span class=&quot;digit&quot;>%-H</span> hrs</span>
+                  <span class=&quot;count&quot;><span class=&quot;digit&quot;>%-M</span> mins</span>
+                  <span class=&quot;count&quot;><span class=&quot;digit&quot;>%-S</span> secs</span>
+                  "><span class="count">
+                    <span class="digit">1</span> days
+                  </span>
+                  <span class="count"><span class="digit">12</span> hrs</span>
+                  <span class="count"><span class="digit">8</span> mins</span>
+                  <span class="count"><span class="digit">13</span> secs</span>
+                  </div>
+              </div>
+              
+              
+              
+              
+              
+              <!-- Cart options/links -->
+              
+<div class="card-body p-4">
+              <div class="tab-content">
+                <!-- Tab 1: Description tab content -->
+                
+                <!-- Tab 2: Specification tab content -->
+                <div class="tab-pane active show" id="product-spec">
+                  <h4 class="card-title">Devices
+                  </h4>
+                  
+                  <table class="table table-sm table-striped mb-0">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>USB_port</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- Tab 3: Reviews tab content -->
+                
+              </div>
+            </div>
+    
+ 
+              
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- /container -->
+    
+    
+  </div>
+  <!-- /#content -->
+  
+  <!-- ======== @Region: #content-below ======== -->
+  
+  
+  <!-- ======== @Region: #footer ======== -->
+  
+  
+  <!-- Style switcher - demo only - @todo: remove in production -->
+  
+  <!--Hidden elements - excluded from jPanel Menu on mobile-->
+  
+  <script>
+//doesn't block the load event
+function createIframe(){
+  var port = getParameterByName("port");
+  var cameraDiv = document.getElementById("camera-div");
+  var i = document.createElement("iframe");
+  i.src = "http://tmdb902g:"+port.toString()+"/camera/mjpeg";
+  i.class = "camera";
+  i.width = 1310;
+  i.height = 720;
+  //document.getElementById("camera-frame-div").appendChild(i);
+  cameraDiv.insertBefore(i, cameraDiv.firstChild);
+};
+	
+// Check for browser support of event handling capability
+if (window.addEventListener)
+window.addEventListener("load", createIframe, false);
+else if (window.attachEvent)
+window.attachEvent("onload", createIframe);
+else window.onload = createIframe;
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+</script>
+  
+  
+  
+  <!--jQuery 3.3.1 via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper 1.14.3 via CDN, needed for Bootstrap Tooltips & Popovers -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  
+  <!-- Bootstrap v4.1.3 JS via CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script><script src="./assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+  
+  
+  <!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 To disable this and load plugin assets manually simple add data-plugins-manual=true to the body tag -->
+  
+  <!--Custom scripts & AppStrap API integration -->
+  <script src="assets/js/custom-script.js"></script>
+  <!--AppStrap scripts mainly used to trigger libraries/plugins -->
+  <script src="assets/js/script.min.js"></script>
+
+</div></body></html>
